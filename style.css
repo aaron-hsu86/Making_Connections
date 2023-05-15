@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    /* temp value for darker background */
+    background-color: gray;
+}
+/* Nav section */
+.nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.nav-bar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav ul {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-right: 200px;
+}
+.sign_out {
+    color: white;
+    background-color:darkturquoise;
+    width: 100px;
+    height: 30px;
+}
+
+/* bottom section */
+.page-details {
+    padding-top: 100px;
+}
+.bottom-container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* feed */
+.left-content{
+    padding: 5px;
+}
+
+/* user card */
+.user-card-container {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-card {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-size: 20px;
+    overflow: hidden;
+    border-style:solid;
+    border-color: lightgray;
+    border-width: 5px;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 10px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 75px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+/* Education container */
+.education-container {
+    background-color:white;
+    border-style:solid;
+    border-color: lightgray;
+    border-width: 5px;
+}
+.education-banner {
+    background-color: black;
+}
+.education-banner > p {
+    color: white;
+    padding: 15px;
+    margin-left: 10px;
+    font-size: 25px
+}
+.education-details {
+    padding: 10px;
+}
+.education-details stern {
+    color: darkgray;
+    font-size: 75%;
+    font-style: italic;
+}
+.education-school {
+    font-size: 20px;
+}
+.education-dates {
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* connections */
+.right-content{
+    margin-left: 20px;
+}
+.connection-requests-container, .connections-container{
+    margin-bottom: 20px;
+}
+.connection-requests-banner, .your-connections-banner {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.number_count{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-radius: 45%;
+}
+.connection-requests-contacts, .connections-people, .connections-more {
+    padding: 10px;
+    background-color: white;
+    border-style:solid;
+    border-color: lightgray;
+    border-width: 5px;
+}
+.names {
+    width: 65px;
+    margin: 0px 10px;
+}
+.user-1, .user-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.accept, .reject {
+    height: 25px;
+    display: flex;
+}
+.buttons{
+    width: 60px;
+}
+.buttons > button {
+    border: none;
+}
+.connection-numbers {
+    background-color: lightgrey;
+    height: 25px;
+    width: 50px;
+    border-style: solid;
+    border-radius: 45%;
+}
+.connection-1,
+.connection-2,
+.connection-3,
+.connection-4 {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic {
+    height: 25px;
+    border-radius: 50%;
+    outline-style: solid;
+    outline-width: 2px;
+}
